@@ -3,7 +3,7 @@ import dotenv from 'dotenv'
 dotenv.config()
 const MONGOURI = process.env.MONGOURI
 
-import { MongoClient } from "mongodb";
+import { MongoClient } from "mongodb"; // move this up, imports should be first
 
 // create instance (copy) of Mongo, exports so can use in other files
 export const client = new MongoClient(MONGOURI); // use the URI path
