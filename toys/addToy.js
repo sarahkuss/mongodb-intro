@@ -4,11 +4,11 @@ client.connect()
 const addToy = async () => {
   //get collection
   const myToy = {
-    name: 'Optimus Prime',
-    type: 'Transformer',
+    name: 'Ken',
+    type: 'Doll',
     cool: true,
-    price: 40,
-    description: 'Leader Autobot, real cool blue semi truck, with sword',
+    price: 20,
+    description: 'Boy, married to Barbie'
   }
 
   const addedtoy = await toysCollection.insertOne(myToy)

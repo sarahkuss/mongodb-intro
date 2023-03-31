@@ -1,4 +1,4 @@
-// 
+// Separated all of these into separate files and changed collection to fruitsCollection
 
 // imports mongoConnect
 import { client } from "./mongoConnect.js"; // ./ because in the same folder
